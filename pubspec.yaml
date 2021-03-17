@@ -1,0 +1,54 @@
+name: e_revenue_flutter
+description: eRevenue Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  rxdart: ^0.24.1
+  flutter_hooks: ^0.14.1
+  hooks_riverpod: ^0.12.1
+  uuid: ^2.1.0
+  google_fonts: ^1.1.1
+  device_info: ^1.0.0
+  fluttertoast: ^7.1.5
+  cached_network_image: ^2.4.1
+  flutter_platform_widgets: ^0.70.2
+  dio: ^3.0.10
+  pinput: ^0.2.6
+  pin_code_fields: ^6.1.0
+  flutter_local_notifications: ^4.0.1
+  shared_preferences: ^0.5.12+4
+  local_auth: ^0.6.2+1
+  toast: ^0.1.5
+
+
+  #Firebase
+  firebase_core: ^0.5.2
+  firebase_auth: "^0.18.3+1"
+  firebase_messaging: "^8.0.0-dev.10"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  device_preview: ^0.5.5
+  flutter_native_splash: ^0.2.9
+
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/COMPASeRevenue.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
